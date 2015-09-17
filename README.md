@@ -5,12 +5,12 @@ one plugin for get System Info ,browser name  and brower verson
  
  ```javascript
  
-    var device = new Device();
+var device = new Device();
 
-		// System Info
-		console.log(device.getSystem()); //Windows 8
+// System Info
+console.log(device.getSystem()); //Windows 8
 
-		// brower name and verson 
+// brower name and verson 
 		
-		console.log(device.getBrowser().appName+'/'+device.getBrowser().version); // chrome/41.0.2272.89
+console.log(device.getBrowser().appName+'/'+device.getBrowser().version); // chrome/41.0.2272.89
 ```

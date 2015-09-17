@@ -1,7 +1,7 @@
 
 one plugin for get System Info ,browser name  and brower verson
 
- #eg: my system is win8 ,brower is chrome and its verson is 41.0.2272.89
+# eg: my system is win8 ,brower is chrome and its verson is 41.0.2272.89
  
  ```javascript
  

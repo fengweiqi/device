@@ -89,6 +89,21 @@
 			    return browser;
 			}
 
+			Device.prototype.isMobile = function(){
+				
+				
+				var device = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+				var is = false;
+           		// 判别移动设备
+           		for(var i=0;i<device.length;i++){
+           			if(this.ua.indexOf(device[i])!=-1){
+           				is = true;
+           				break;
+           			}
+           		}
 
+           		return is;
+
+			}
 			window.Device = Device;
 })();
